@@ -1,0 +1,67 @@
+<html>
+<head>
+  <title>Traversal Demo</title>
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <h1>Traversal Demo</h1>
+  <div id="things">
+    <h2>Table o' things</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>Thing to change</td>
+          <td>Color</td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>border-color</td>
+          <td>blue</td>
+          <td><button id="blue">Update this row</button></td>
+        </tr>
+        <tr>
+          <td>background-color</td>
+          <td>red</td>
+          <td><button>Update the previous row</button></td>
+        </tr>
+        <tr>
+          <td>color</td>
+          <td>green</td>
+          <td><button id="green">Update the first row</button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div id="stuff">
+    <h2>List of Stuff</h2>
+    <ul class="list">
+      <li>
+        <h3>Shelves</h3>
+        <ul class="list">
+          <li>shelf 1</li>
+          <li>shelf 2</li>
+          <li>shelf 3</li>
+          <li>shelf 4</li>
+        </ul>
+      </li>
+      <li>
+        <h3>Workstations</h3>
+        <ul class="list">
+          <li>mac 1</li>
+          <li>mac 2</li>
+          <li>mac 3</li>
+          <li>mac 4</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

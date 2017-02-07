@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#things {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#stuff {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+table, td {
+  border: 1px solid black;
+}
+
+li, td {
+  font-size: 1.25em;
+  padding: 5px;
+}
+
+thead {
+  font-weight: bold;
+}
+
+ul h3 {
+  margin-top: 0;
+}
+
+.list {
+  list-style-type: none;
+  padding-left: 0;
+}
