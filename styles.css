@@ -39,3 +39,16 @@ ul h3 {
   list-style-type: none;
   padding-left: 0;
 }
+
+div > ul {
+  font-size: 1.5em;
+
+}
+
+.list h3 {
+  border-bottom: 1px solid black;
+}
+
+div > ul > li > ul {
+  font-size: .5em;
+}
